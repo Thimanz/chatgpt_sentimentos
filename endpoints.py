@@ -28,6 +28,4 @@ def criar_endpoints(OPENAI_API_KEY):
             funcoes[evento.tipo](evento)
         except:
             pass
-        
     return app
-LembreteCriado
